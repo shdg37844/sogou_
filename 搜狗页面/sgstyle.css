@@ -133,9 +133,11 @@ body {
 .page-footer {
     display: flex;
     text-align: center;
-    margin: 0px 426px 25px 495px;
+    /* 修改 */
+    margin: 0 auto 25px;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
+    align-items: end;
 
 }
 
@@ -171,4 +173,10 @@ body {
     height: 40px;
     margin-top: 36px;
     margin-left: 10px;
+}
+
+
+/* 文字旁边添加小图标 */
+.page-footer .footer-info-last::after {
+    content: url(images/wangan_40d89ca.png)
 }
